@@ -1,0 +1,20 @@
+img {
+    width: 30%;
+}
+
+a {
+    display: block;
+}
+
+/* Com esses comandos, é verificado se onde tem href="" possui .pdf ou .xls e de acordo com o que estiver,
+ele atribui a imagem que definimos no background */
+
+[href$=".pdf"] {
+    background: url('./assets/pdf.png') no-repeat;
+    padding-left: 20px;
+}
+
+[href$=".xls"] {
+    background: url('./assets/excel.png') no-repeat;
+    padding-left: 20px;
+}

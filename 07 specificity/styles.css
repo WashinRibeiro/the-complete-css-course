@@ -1,0 +1,33 @@
+/* inline style
+id
+class
+element */
+
+body {
+    background-color: black;
+}
+
+/* (0|1|0|0) */
+#note_id {
+    color: darkorange;
+}
+
+/* (0|0|1|1) */
+body .note {
+    color: blueviolet;
+}
+
+/* (0|0|1|0) */
+.note {
+    color: aqua;
+}
+
+/* (0|0|0|1) */
+p {
+    color: blue;
+}
+
+/* (0|0|0|1) */
+p {
+    color: red;
+}

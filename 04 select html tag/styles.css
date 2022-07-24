@@ -1,0 +1,21 @@
+header {
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+}
+
+section {
+    height: 400px;
+    font-size: 100px;
+    background-color: greenyellow;
+    text-transform: uppercase; 
+    /* 
+        uppercase --> texto todo em maíusculo
+        lowercase --> texto todo em maíusculo
+        capitalize --> Primeiras letras das palavras em maiusculo
+    */
+}
+
+p {
+    color: blue
+}

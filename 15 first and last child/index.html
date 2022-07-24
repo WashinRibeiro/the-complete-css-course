@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /* Definimos dessa forma que o primeiro filho e o último que possui essa tag,
+    NÃO terão esses atributos. */
+    p:not(:first-child):not(:last-child) {
+      background-color: red;
+    }
+
+    /* Definimos dessa forma que o primeiro filho e o último que possui essa tag,
+    terão esses atributos. */
+    p:first-child, p:last-child {
+      background-color: rgb(0, 68, 255);
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <p>This is paragraph.</p>
+  <p>This is paragraph.</p>
+  <p>This is paragraph.</p>
+  <p>This is paragraph.</p>
+  <p>This is paragraph.</p>
+  <p>This is paragraph.</p>
+  <div>div</div>
+  <p>The second paragraph.</p>
+  <p>The third paragraph.</p>
+  <p>The fourth paragraph.</p>
+  
+</body>
+
+</html>

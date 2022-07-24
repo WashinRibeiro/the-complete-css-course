@@ -1,0 +1,21 @@
+h1 {
+    background-color: red;
+}
+
+h1 {
+    background-color: gold;
+}
+
+/* Nesse caso chamamos a tag e passamos o mesmo atributo duas vezes,
+então ele vai considerar o segundo valor */
+
+p {
+    color: blue;
+}
+
+span {
+    color: red;
+}
+
+/* Como o span se encontra dentro do parágrafo (p), se não aplicassemos a estilização especificamente para ele,
+o mesmo iria herdar as configuações do parágrafo */

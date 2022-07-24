@@ -1,0 +1,24 @@
+/* Quando passamos o mouse encima */
+a:hover {
+    background-color: yellow;
+}
+
+/* Quando clicamos, com large, a tag fica maior que sua classe pai */
+a:active {
+    font-size: large;
+}
+
+/* Quando ainda não acessamos e somente um link */
+a:link {
+    color: green;
+}
+
+/* Se já acessamos */
+a:visited {
+    color: yellowgreen;
+}
+
+/* Quando clicamos no input */
+input:focus {
+    background-color: lightblue;
+}

@@ -1,0 +1,14 @@
+/* Nesse caso, estilizamos somente o parágrafo que vem diretamente 
+após a tag h1 
+
+tag+p --> 1° parágrao que vem depois da tag
+tag+p+p --> 2° parágrao que vem depois da tag
+tag+p+p+p --> 3° parágrao que vem depois da tag
+... E assim em diante, com qualquer tag
+*/
+
+
+h1+p {
+    color: green;
+    font-size: 20px;
+}

@@ -1,0 +1,5 @@
+/* Aplica-se a todo parágrao que herdar da classe #myparagraph */
+#myparagraph p { 
+    color:red;
+    font-size: large;
+}

@@ -1,0 +1,15 @@
+#myname {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 40%;
+    padding: 30px;
+    font-size: 50px;
+    margin: 10px;
+}
