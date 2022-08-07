@@ -1,0 +1,15 @@
+
+.jumbotron{
+    max-height: 300px;
+    overflow: hidden;
+    margin: 15px;
+    position: relative;
+}
+.jumbotron h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:15px;
+    left:0;
+    margin:0;
+}

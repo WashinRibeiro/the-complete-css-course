@@ -1,0 +1,26 @@
+.square{
+    border-radius: 50%;
+}
+
+.landscape{
+    width:200px;
+    height: 200px;   
+    overflow:hidden;
+    border-radius: 50%;
+}
+
+.landscape img{
+    height: 100%;
+    margin-left: -25px;
+}
+.portrait{
+    width:200px;
+    height: 200px;   
+    overflow:hidden;
+    border-radius: 50%;
+}
+
+.portrait img{
+    width: 100%;
+    margin-top: -25px;
+}

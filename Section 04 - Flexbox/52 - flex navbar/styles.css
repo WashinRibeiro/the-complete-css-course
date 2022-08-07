@@ -1,0 +1,31 @@
+*{
+    margin:0;
+}
+nav{
+    background:yellowgreen;
+    
+
+}
+nav ul{
+    list-style-type: none;
+    padding:0;
+
+}
+
+nav li{
+    border:3px solid black;
+}
+
+nav a{
+    display: block;
+}
+nav a:hover{
+    background-color: aqua;
+}
+
+@media screen and (min-width:700px) {
+    nav ul{
+        display:flex;
+        justify-content:flex-start;
+    }
+}

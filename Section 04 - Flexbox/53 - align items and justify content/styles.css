@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+nav{
+    background:yellowgreen;
+    
+
+}
+nav ul{
+    list-style-type: none;
+    padding:0;
+    height: 500px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav li{
+    border:3px solid black;
+    width:100px;
+    height: 100px;
+    font-size:90px;
+}
+
+nav a{
+    display: block;
+}
+nav a:hover{
+    background-color: aqua;
+}
+

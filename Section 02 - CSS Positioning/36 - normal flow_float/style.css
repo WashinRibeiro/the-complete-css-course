@@ -1,0 +1,26 @@
+.wrapper{
+    background-color: beige;
+    max-width: 960px;
+    margin: auto;
+    padding: 30px;
+}
+img{
+    float:left;
+    margin:15px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.product h1, .product p{
+    color:chocolate;
+}
+
+.product{
+    background-color: beige;
+    float:left;
+    width:21%;
+    padding: 1%;
+    margin: 1%;
+}

@@ -1,0 +1,29 @@
+:root {
+    --theme-color: black;
+    --primary-color: red;
+    --secondary-color: pink
+}
+
+body {
+    background-color: var(--theme-color);
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+}
+
+.header {
+    color: var(--primary-color);
+}
+
+.lorem {
+    color: var(--secondary-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px;
+}

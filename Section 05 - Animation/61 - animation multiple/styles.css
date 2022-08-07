@@ -1,0 +1,38 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:white;
+    animation: move 5s 2s both;
+    position:absolute;
+    animation-iteration-count: infinite;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color:white;
+    position:absolute;
+    top:400px;
+    animation: move 2s 1s infinite  both, changecolor 2s ease 1s infinite both
+    
+}
+
+
+@keyframes move {
+    from{transform: translateX(-500px)}
+    to{transform: translateX(500px);}  
+}
+
+@keyframes changecolor{
+    0% {background-color: red;}
+    100% {background-color: greenyellow;}
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}

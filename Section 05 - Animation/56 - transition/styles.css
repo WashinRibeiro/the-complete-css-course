@@ -1,0 +1,24 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:white;
+    /* transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.94,1.87,1,1.56);
+    transition-delay: 1s; */
+    transition:  height 1s, width 0.3s 1s cubic-bezier(.94,1.87,1,1.56);
+}
+
+.box:hover{
+    cursor: pointer;
+    height: 500px;
+    width: 500px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}

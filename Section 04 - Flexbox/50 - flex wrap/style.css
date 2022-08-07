@@ -1,0 +1,30 @@
+.container{
+    background-color: beige;
+    /* width: ; */
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    min-width: 300px;
+     
+}
+
+.red{
+    background-color: red;
+    flex-shrink: 1;
+}
+.blue{
+    background-color: blue;
+    flex-shrink: 2;
+
+}
+.orange{
+    background-color: orange;
+    flex-shrink: 13;
+
+}
+

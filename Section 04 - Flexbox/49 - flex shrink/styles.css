@@ -1,0 +1,21 @@
+
+
+.container{
+    background-color: beige;
+    max-width: 600px;
+    margin: auto;
+    display:flex;
+   
+}  
+
+
+
+
+.box{
+    height: 100px;
+    width: 200px;
+    /* margin: 5px;  */
+    /* margin:auto;    */
+}
+
+

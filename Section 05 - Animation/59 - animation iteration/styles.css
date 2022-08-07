@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:white;
+    animation: move 2s 1s infinite both;
+    
+  
+}
+
+@keyframes move {
+    from{transform: translateX(-500px)}
+    to{transform: translateX(500px);}  
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}

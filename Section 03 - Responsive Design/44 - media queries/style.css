@@ -1,0 +1,20 @@
+section{
+    float:left;
+    width:21%;
+    padding:1%;
+    margin:1%;
+    background-color: antiquewhite;
+}
+
+
+@media screen and (max-width:700px) {
+    section{
+        width: 46%;
+    }
+}
+@media screen and (max-width:480px) {
+    section{
+        width: 96%;
+    }
+}
+

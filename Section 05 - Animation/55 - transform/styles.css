@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:white;
+    /* transform: translateX(300px) scale(2); */
+    /* matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+    /* transform: rotate(45deg); */
+
+}
+.box:hover{
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateZ(360deg);
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}

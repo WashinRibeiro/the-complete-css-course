@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:white;
+    
+animation-name: move;
+animation-duration: 5s;
+animation-delay: 2s;
+animation-fill-mode: backwards;
+}
+
+@keyframes move {
+    from{transform: translateX(-500px)}
+    to{transform: translateX(500px);}
+    
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}

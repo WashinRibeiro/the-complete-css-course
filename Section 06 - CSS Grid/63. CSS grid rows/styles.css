@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    margin: auto;
+    max-width: 960px;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    background-color: black;
+}
+
+.container div {
+    background-color: cadetblue;
+    padding: 50px;
+}
+
+.container div:nth-child(even) {
+    background-color: chocolate;
+}
